@@ -124,3 +124,7 @@ Everything can be tweaked to your liking from the in-game settings menu:
 
 
 2. Grab the release files and drop them into your Beat Saber `Plugins` folder.
+
+## Credits
+- Inspiration from `IForgor` Mod
+- Method to grab the sabers current angle taken from `IForgor` Mod
