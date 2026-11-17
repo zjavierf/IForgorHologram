@@ -1,0 +1,44 @@
+﻿<!-- Spaces: <horizontal> <text text=" " font-size="4" color="#00000000"/> </horizontal> -->
+
+<bg anchor-pos-y="-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://monkeymanboy.github.io/BSML-Docs/BSMLSchema.xsd">
+
+    <!-- Custom Title -->
+    <horizontal anchor-pos-y="50" vertical-fit="PreferredSize" horizontal-fit="PreferredSize" spacing="4" bg="round-rect-panel" bg-alpha="0.8" pref-height="10" pref-width="50">
+        <text text="IForgorHologram" font-color="orange" font-size="7" align="Center"/>
+    </horizontal>
+
+    <!-- Exit Button -->
+    <clickable-image src="IForgorHologram.Resources.exitIcon.png" on-click="BackButton" hover-hint="Exit" highlight-color="red" scale="0.5" anchor-pos-y="50" anchor-pos-x="-43"/>
+
+    <vertical child-control-width="true" pref-width="100" horizontal-fit="PreferredSize">
+
+        <!-- Tabs Background -->
+        <horizontal anchor-pos-y="2" ignore-layout="true" pivot-y="1" vertical-fit="PreferredSize" horizontal-fit="PreferredSize" bg="panel-top" bg-color="#3F3F3F" pref-height="10" pref-width="110">
+            <text text=" "/>
+        </horizontal>
+
+        <!-- Top-level Tab Bar -->
+        <horizontal vertical-fit="PreferredSize" horizontal-fit="PreferredSize" pref-width="100" pref-height="6" pivot-y="1">
+            <tab-select child-expand-width="true" child-control-width="false" tab-tag="mainTabs" id="tabSelector" page-count="5" spacing="-0.16"/>
+        </horizontal>
+
+        <!-- Tab 1: General -->
+        <tab tags="mainTabs" tab-name="General">
+            <vertical vertical-fit="PreferredSize" anchor-pos-y="20" pref-height="65" pref-width="110" bg="round-rect-panel" bg-alpha="0.7">
+                <scroll-view spacing="0" pref-height="65" child-expand-width="true">
+                    <toggle-setting apply-on-change="true" text="Mod Enabled" value="Enabled"/>
+                    <toggle-setting apply-on-change="true" text="Hologram Mode" value="HologramMode"/>
+                    <dropdown-list-setting apply-on-change="true" text="Alignment Guide" value="AlignmentGuide" options="AlignmentGuideOptions"/>
+                    <dropdown-list-setting apply-on-change="true" text="Despawn Animation" value="DespawnAnimation" options="DespawnAnimationOptions"/>
+                    <toggle-setting apply-on-change="true" text="Enable Audio Cue" value="EnableAudioCue"/>
+                    <slider-setting apply-on-change="true" text="Audio Cue Volume" value="AudioCueVolumePercent" min="0" max="100" increment="5" formatter="PercentageFormatter" show-buttons="true"/>
+                    <toggle-setting apply-on-change="true" text="Enable Haptics" value="EnableHaptics"/>
+                    <toggle-setting apply-on-change="true" text="Override Saber Colors" value="OverrideColor"/>
+                    <color-setting apply-on-change="true" text="Left Saber Color" value="LeftGhostColor" />
+                    <color-setting apply-on-change="true" text="Right Saber Color" value="RightGhostColor" />
+                </scroll-view>
+            </vertical>
+        </tab>
+
+    </vertical>
+</bg>
