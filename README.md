@@ -8,6 +8,17 @@
 
 A Beat Saber mod that spawns ghost sabers when you pause, helping you check your hand position and grip before unpausing.
 
+## What it does
+
+
+
+Ever lose track of where your hands were and it causes you to miss?
+
+
+
+This mod creates holograms (or your real sabers) right where your hands were before you paused. Just line your real sabers back up with them before you unpause to not mess up your next swing.
+
+
 
 ---
 
@@ -70,23 +81,6 @@ A Beat Saber mod that spawns ghost sabers when you pause, helping you check your
 
 
 ---
-
-
-
-## What it does
-
-
-
-Ever lose track of where your hands were and it causes you to miss?
-
-
-
-This mod creates holograms (or your real sabers) right where your hands were before you paused. Just line your real sabers back up with them before you unpause to not mess up your next swing.
-
-
-
----
-
 
 
 ## Features
