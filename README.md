@@ -13,25 +13,60 @@ A Beat Saber mod that spawns ghost sabers when you pause, helping you check your
 
 ## Preview
 
-| Guide Laser | Real Saber Alignment |
-| :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/2e4d0e18-8253-4b85-87ec-e3ef78c0d36a" width="50%" /> | <img src="https://github.com/user-attachments/assets/43426e44-f9b9-48c4-bdd8-73b7f783fc0f" width="50%" /> |
-| *Guide laser active upon pause* | *Real saber ghost markers active* |
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/2e4d0e18-8253-4b85-87ec-e3ef78c0d36a" width="100%" /><br>
+      <em>Guide laser active upon pause</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/43426e44-f9b9-48c4-bdd8-73b7f783fc0f" width="100%" /><br>
+      <em>Real saber ghost markers active</em>
+    </td>
+  </tr>
+</table>
 
-| Main Settings |
-| :---: |
-| <img src="https://github.com/user-attachments/assets/4ab870d2-7e2b-44d1-b728-3cf7884e9752" width="100%" />
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/4ab870d2-7e2b-44d1-b728-3cf7884e9752" width="100%" />
+    </td>
+  </tr>
+</table>
 
-| Aligned State | Hologram Mode: ON | Hologram Mode: OFF |
-| :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/62730c37-c22d-4318-9310-da88497593b1" width="33%" /> | <img src="https://github.com/user-attachments/assets/54ce6a50-c64f-4770-8f03-3f271787a20a" width="33%" /> | <img src="https://github.com/user-attachments/assets/8626d076-7629-47ee-b61b-8fc8b6b5b8ee"  width="33%" /> |
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://github.com/user-attachments/assets/62730c37-c22d-4318-9310-da88497593b1" width="100%" /><br>
+      <em>Aligned State</em>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://github.com/user-attachments/assets/54ce6a50-c64f-4770-8f03-3f271787a20a" width="100%" /><br>
+      <em>Hologram Mode: ON</em>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://github.com/user-attachments/assets/8626d076-7629-47ee-b61b-8fc8b6b5b8ee" width="100%" /><br>
+      <em>Hologram Mode: OFF</em>
+    </td>
+  </tr>
+</table>
 
-
-| Realtime Aligning | Fade Away Animation | Shrink Animation |
-| :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/4f3a0f37-5763-4f42-a4d2-a38be08d4b9a" width="33%" /> | <img src="https://github.com/user-attachments/assets/2d2bab55-22fb-48cb-93cd-f6744b325071" width="33%" /> | <img src="https://github.com/user-attachments/assets/5552683c-efd7-4104-ad13-2f4ba7eb7616" width="33%" /> |
-| *Turns green when aligned* | *Fades out on unpause* | *Shrinks on unpause* |
-
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://github.com/user-attachments/assets/4f3a0f37-5763-4f42-a4d2-a38be08d4b9a" width="100%" /><br>
+      <em>Turns green when aligned</em>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://github.com/user-attachments/assets/2d2bab55-22fb-48cb-93cd-f6744b325071" width="100%" /><br>
+      <em>Fades out on unpause</em>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://github.com/user-attachments/assets/5552683c-efd7-4104-ad13-2f4ba7eb7616" width="100%" /><br>
+      <em>Shrinks on unpause</em>
+    </td>
+  </tr>
+</table>
 
 
 ---
